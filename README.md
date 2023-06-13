@@ -4,25 +4,16 @@ Des relevés minutieux ont été effectués par les agents de la ville en 2016. 
 
 Votre prédiction se basera sur les données structurelles des bâtiments (taille et usage des bâtiments, date de construction, situation géographique, ...)
 
-Vous cherchez également à évaluer l’intérêt de l’"ENERGY STAR Score" pour la prédiction d’émissions, qui est fastidieux à calculer avec l’approche utilisée actuellement par votre équipe. Vous l'intégrerez dans la modélisation et jugerez de son intérêt.
-
-Vous sortez tout juste d’une réunion de brief avec votre équipe. Voici un récapitulatif de votre mission :
-
-- Réaliser une courte analyse exploratoire.
-- Tester différents modèles de prédiction afin de répondre au mieux à la problématique.
-
-Avant de quitter la salle de brief, Douglas, le project lead, vous donne quelques pistes et erreurs à éviter :
-
-Douglas : "L’objectif est de te passer des relevés de consommation annuels futurs (attention à la fuite de données). Nous ferons de toute façon pour tout nouveau bâtiment un premier relevé de référence la première année, donc rien ne t'interdit d’en déduire des variables structurelles aux bâtiments, par exemple la nature et proportions des sources d’énergie utilisées...
-
-Fais bien attention au traitement des différentes variables, à la fois pour trouver de nouvelles informations (peut-on déduire des choses intéressantes d’une simple adresse ?) et optimiser les performances en appliquant des transformations simples aux variables (normalisation, passage au log, etc.).
-
-Mets en place une évaluation rigoureuse des performances de la régression, et optimise les hyperparamètres et le choix d’algorithmes de ML à l’aide d’une validation croisée."
-
 <h2 align="left">Livrables</h2>
 
 - Un notebook de l'analyse exploratoire mis au propre et annoté.
 - Un notebook pour chaque prédiction (émissions de CO2 et consommation totale d’énergie) des différents tests de modèles mis au propre, dans lequel vous identifierez clairement le modèle final choisi.
 - Un support de présentation pour la soutenance
 
+<h2 align="left">Compétences évaluées</h2>
+
+- Mettre en place le modèle d'apprentissage supervisé adapté au problème métier
+- Adapter les hyperparamètres d'un algorithme d'apprentissage supervisé afin de l'améliorer
+- Transformer les variables pertinentes d'un modèle d'apprentissage supervisé
+- Évaluer les performances d’un modèle d'apprentissage supervisé
 
